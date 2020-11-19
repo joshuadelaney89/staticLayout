@@ -3,7 +3,7 @@ html, body {
 }
 
 nav {
-    background-color: #2b2b2c  ;
+    background-color: #2b2b2c;
     background-image: url("mobile-shield.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -13,7 +13,9 @@ nav {
     justify-content: flex-end;
     align-items: center;
     z-index: 1;
-    font-family: verdana, Arial, Helvetica, sans-serif;
+    position: fixed;
+    font-family: sans-serif;
+    font-size: small;
 }
 
 nav li {
@@ -28,23 +30,24 @@ nav ul li {
 nav a {
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
+    color: #eceaea;
 }
 
 h1 {
-    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 h2 {
-    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
+    color: #158ccc;
 }
 
 p {
-    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 
 .courseInfo {
      text-align: center;
-     color: #1283BF ;
+     color: #158ccc ;
 }
 
 #promoVideo {
@@ -59,26 +62,27 @@ p {
 }
 
 .videoBox {
-    position: absolute;
-    
+    position: absolute;   
     left: 30%;
     right: 30%;
     bottom: 30%;
     background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
+    color: #eceaea;
     width: fit-content;
     padding: 40px;
-    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
+    font-weight: bold;
     text-align: center; 
 }
 
 .videoBox2 {
-    background: rgba(247, 6, 6, 0.5);
+    background: #ff0d0d;
     color: #f1f1f1;
     width: fit-content;
     padding: 20px;
     margin: 50px;
-    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
+    font-weight: bold;
     text-align: center;
     z-index: 1;
     position: absolute;
